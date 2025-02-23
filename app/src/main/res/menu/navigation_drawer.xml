@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/sub_header_title1">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/length_item"
+                    android:checkable="true"
+                    android:checked="true"
+                    android:icon="@drawable/_length"
+                    android:title="@string/length_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/area"
+                    android:checkable="true"
+                    android:icon="@drawable/area"
+                    android:title="@string/area_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/volume"
+                    android:checkable="true"
+                    android:icon="@drawable/volume"
+                    android:title="@string/volume_title"
+                    app:showAsAction="ifRoom" />
+
+                <item
+                    android:id="@+id/angle_item"
+                    android:checkable="true"
+                    android:icon="@drawable/square_foot"
+                    android:title="@string/angle_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/temperature_item"
+                    android:checkable="true"
+                    android:icon="@drawable/thermometer"
+                    android:title="@string/temperature_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/time_item"
+                    android:checkable="true"
+                    android:icon="@drawable/schedule"
+                    android:title="@string/time_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/currency_item"
+                    android:checkable="true"
+                    android:icon="@drawable/currency_exchange"
+                    android:title="@string/currency_title"
+                    app:showAsAction="ifRoom" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/labels_item"
+        android:title="@string/labels_sub_header_title">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mass"
+                    android:checkable="true"
+                    android:icon="@drawable/weight"
+                    android:title="@string/wm_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/speed"
+                    android:checkable="true"
+                    android:icon="@drawable/speed"
+                    android:title="@string/speed_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/density"
+                    android:checkable="true"
+                    android:icon="@drawable/density"
+                    android:title="@string/density_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/energy"
+                    android:checkable="true"
+                    android:icon="@drawable/energy"
+                    android:title="@string/energy_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/power"
+                    android:checkable="true"
+                    android:icon="@drawable/power"
+                    android:title="@string/power_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/pressure"
+                    android:checkable="true"
+                    android:icon="@drawable/pressure"
+                    android:title="@string/pressure_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/viscosity"
+                    android:checkable="true"
+                    android:icon="@drawable/viscosity"
+                    android:title="@string/viscosity_title"
+                    app:showAsAction="ifRoom" />
+                <item
+                    android:id="@+id/torque"
+                    android:checkable="true"
+                    android:icon="@drawable/torque"
+                    android:title="@string/torque_title"
+                    app:showAsAction="ifRoom" />
+            </group>
+        </menu>
+    </item>
+</menu>

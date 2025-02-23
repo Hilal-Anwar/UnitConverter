@@ -1,0 +1,55 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="Widget.Material3.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".unitController.CurrencyFragment">
+
+    <org.helal.unitconvertor.ui.CurrencyTextFieldLayout
+        android:id="@+id/currency_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        custom:focusColorValue="?attr/colorPrimaryContainer"
+        custom:labelTextFillColor="?attr/textFillColor">
+
+    </org.helal.unitconvertor.ui.CurrencyTextFieldLayout>
+
+    <Button
+        android:id="@+id/iconButton"
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/c_name"
+        android:stateListAnimator="@android:anim/fade_out"
+        app:icon="@drawable/swap_vert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currency_1" />
+
+    <org.helal.unitconvertor.ui.CurrencyTextFieldLayout
+        android:id="@+id/currency_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconButton"
+        custom:focusColorValue="?attr/colorPrimaryContainer"
+        custom:labelTextFillColor="?attr/textFillColor">
+
+    </org.helal.unitconvertor.ui.CurrencyTextFieldLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

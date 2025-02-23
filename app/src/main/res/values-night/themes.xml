@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UnitConvertor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Status bar color. -->
+        <item name="colorPrimary">@color/lemon</item>
+        <item name="colorPrimaryContainer">@color/dark_lemon</item>
+        <item name="colorSecondary">@color/Quincy</item>
+        <item name="colorSecondaryContainer">@color/Quincy_light_dark</item>
+        <item name="colorTertiary">@color/Feldgrau</item>
+        <item name="colorTertiaryContainer">@color/Feldgrau_light</item>
+        <item name="textBackground">@color/black</item>
+        <item name="textFillColor">@color/white</item>
+        <item name="upTrendingColor">@android:color/holo_green_dark</item>
+        <item name="downTrendingColor">@android:color/holo_red_dark</item>
+        <item name="colorOnSurfaceVariant">@color/Quincy_light</item>
+        <item name="android:colorControlHighlight">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

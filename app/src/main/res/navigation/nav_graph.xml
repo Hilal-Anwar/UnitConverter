@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@+id/length_item">
+
+    <fragment
+        android:id="@+id/length_item"
+        android:label="@string/length_title"
+        android:name="org.helal.unitconvertor.unitController.LengthFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/area"
+        android:label="@string/area_title"
+        android:name="org.helal.unitconvertor.unitController.AreaFragment"
+        tools:layout="@layout/custom_unit_layout"/>
+    <fragment
+        android:id="@+id/volume"
+        android:label="@string/volume_title"
+        android:name="org.helal.unitconvertor.unitController.VolumeFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/angle_item"
+        android:label="@string/angle_title"
+        android:name="org.helal.unitconvertor.unitController.AngleFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/temperature_item"
+        android:label="@string/temperature_title"
+        android:name="org.helal.unitconvertor.unitController.TemperatureFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/time_item"
+        android:label="@string/time_title"
+        android:name="org.helal.unitconvertor.unitController.TimeFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/currency_item"
+        android:label="@string/currency_title"
+        android:name="org.helal.unitconvertor.unitController.CurrencyFragment"
+        tools:layout="@layout/currency_layout" />
+    <fragment
+        android:id="@+id/mass"
+        android:label="@string/wm_title"
+        android:name="org.helal.unitconvertor.unitController.MassFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/speed"
+        android:label="@string/speed_title"
+        android:name="org.helal.unitconvertor.unitController.SpeedFragment"
+        tools:layout="@layout/custom_unit_layout"/>
+    <fragment
+        android:id="@+id/density"
+        android:label="@string/density_title"
+        android:name="org.helal.unitconvertor.unitController.DensityFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/energy"
+        android:label="@string/energy_title"
+        android:name="org.helal.unitconvertor.unitController.EnergyFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/power"
+        android:label="@string/power_title"
+        android:name="org.helal.unitconvertor.unitController.PowerFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/pressure"
+        android:label="@string/pressure_title"
+        android:name="org.helal.unitconvertor.unitController.PressureFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/viscosity"
+        android:label="@string/viscosity_title"
+        android:name="org.helal.unitconvertor.unitController.ViscosityFragment"
+        tools:layout="@layout/custom_unit_layout" />
+    <fragment
+        android:id="@+id/torque"
+        android:label="@string/torque_title"
+        android:name="org.helal.unitconvertor.unitController.TorqueFragment"
+        tools:layout="@layout/custom_unit_layout" />
+
+</navigation>

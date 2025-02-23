@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unit Convertor</string>
+    <string name="header_title">Unit Convertor</string>
+    <string name="header_text">High conversions, high profits.</string>
+    <string name="sub_header_title1">General</string>
+    <string name="length_title">Length</string>
+    <string name="area_title">Area</string>
+    <string name="volume_title">Volume</string>
+    <string name="angle_title">Angle</string>
+    <string name="temperature_title">Temperature</string>
+    <string name="time_title">Time</string>
+    <string name="currency_title">Currency</string>
+    <string name="labels_sub_header_title">Physics</string>
+    <string name="wm_title">Mass and weight</string>
+    <string name="density_title">Density</string>
+    <string name="energy_title">Energy</string>
+    <string name="speed_title">Speed</string>
+    <string name="power_title">Power</string>
+    <string name="pressure_title">Pressure</string>
+    <string name="viscosity_title">Viscosity</string>
+    <string name="torque_title">Torque</string>
+    <string name="convert_title">Convert</string>
+    <string name="history_title">History</string>
+    <string name="empty"> </string>
+    <string name="c_code">🇮🇳 INR</string>
+    <string name="c_name">Indian rupees</string>
+    <string name="sub_unit">MM</string>
+    <string name="u_code">Meter</string>
+    <string name="u_name">Length</string>
+    <string name="create_units">Create units</string>
+    <string name="currency_title_1">Currency</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unit_m">Unit</string>
+    <string name="sub_u">su</string>
+    <string name="logo">logo</string>
+    <string name="coming_soon">Comming soon</string>
+</resources>

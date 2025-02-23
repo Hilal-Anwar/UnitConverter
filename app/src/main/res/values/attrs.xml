@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurrencyTextFieldLayout">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="focusColorValue" format="color" />
+        <attr name="upTrendingColor" format="color" />
+        <attr name="downTrendingColor" format="color" />
+        <attr name="labelTextFillColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="UnitTextFieldLayout">
+        <attr name="titleText1" format="string" localization="suggested" />
+        <attr name="subUnitText" format="string" localization="suggested"/>
+        <attr name="unitTitleText" format="string" localization="suggested"/>
+        <attr name="textFieldTextHint" format="string" localization="suggested"/>
+        <attr name="focusColorValue1" format="color" />
+        <attr name="upTrendingColor1" format="color" />
+        <attr name="downTrendingColor1" format="color" />
+        <attr name="labelTextFillColor1" format="color" />
+    </declare-styleable>
+</resources>

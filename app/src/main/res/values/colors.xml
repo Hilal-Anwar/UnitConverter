@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#141218</color>
+    <color name="app_back">#fef7ff</color>
+    <color name="white">#fffbfe</color>
+    <color name="dark_lemon">#616200</color>
+    <color name="lemon">#e8e970</color>
+    <color name="Quincy">#606042</color>
+    <color name="Quincy_light">#e6e4bf</color>
+    <color name="Quincy_light_dark">#595401</color>
+    <color name="Feldgrau">#3d6657</color>
+    <color name="Feldgrau_light">#bfedd9</color>
+</resources>
